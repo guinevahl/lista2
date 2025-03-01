@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ex05 {
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         float numerador, denominador;
 
@@ -11,11 +11,11 @@ public class Ex05 {
 
         System.out.println("Digite o numerador: ");
 
-        numerador = sc.nextFloat();
+        numerador = in.nextFloat();
 
         System.out.println("Digite o denominador: ");
 
-        denominador = sc.nextFloat();
+        denominador = in.nextFloat();
         
         resultado = numerador/denominador;
 
