@@ -12,6 +12,5 @@ public class Ex12{
             System.out.printf("O preço total é R$"+maças);
         } else{ maças = maças *1.3f;
             System.out.printf("O preço total é R$"+maças);}
- 
     }
 }
