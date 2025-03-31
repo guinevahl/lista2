@@ -11,7 +11,11 @@ public class Ex13{
         avaliação2 = in.nextInt();
         media = (avaliação1 + avaliação2) / 2;
 
-        if(media < 6){System.out.println("A média final foi de " + media + ", então o aluno está reprovado.");} 
-        else{System.out.println("A média final foi de " + media + ", então o aluno está aprovado.");}
+        if(media < 6){
+            System.out.println("A média final foi de " + media + ", então o aluno está reprovado.");
+            } 
+        else{
+            System.out.println("A média final foi de " + media + ", então o aluno está aprovado.");
+            }
     }
 }
